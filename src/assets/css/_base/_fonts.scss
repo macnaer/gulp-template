@@ -15,10 +15,21 @@ Example:
 
 // @include font-face('Angeline', '../fonts/Angeline', null, null, woff2 woff);
 
+// @font-face {
+//     font-family: 'Angeline';
+//     src: url(../fonts/AngelineVintage.woff) format('woff'),
+//      url(../fonts/AngelineVintage.woff2) format('woff2');
+// }
+
+
 @font-face {
     font-family: 'Angeline';
-    src: url(../fonts/AngelineVintage.woff) format('woff'),
-     url(../fonts/AngelineVintage.woff2) format('woff2');
+    src: url('../fonts/angeline-webfont.eot');
+    src: url('../fonts/angeline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/angeline-webfont.woff2') format('woff2'),
+         url('../fonts/angeline-webfont.woff') format('woff'),
+         url('../fonts/angeline-webfont.ttf') format('truetype'),
+         url('../fonts/angeline-webfont.svg#angeline_vintaangelinevintage') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
-
-

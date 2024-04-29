@@ -35,6 +35,7 @@
     "yargs": "^17.0.1"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-csso": "^4.0.1",
     "gulp-group-css-media-queries": "^1.2.2",
